@@ -1,5 +1,5 @@
 title: Vonge
-baseurl: "/vonge/docs"
+baseurl: "/vonge/docs/"
 source: .
 remote_theme:  CloudCannon/vonge-jekyll-bookshop-template
 
