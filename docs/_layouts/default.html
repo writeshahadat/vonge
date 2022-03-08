@@ -13,8 +13,8 @@
 
     {{ content }}
 
-    <!-- 
-        Bookshop components are accessed using the bookshop tag, 
+    <!--
+        Bookshop components are accessed using the bookshop tag,
         using the same syntax as the standard Jekyll include tag.
     -->
     {% bookshop_include page content_blocks=page.content_blocks page_theme=page.page_theme %}
@@ -26,7 +26,7 @@
     <!--
         load the live component for CloudCannon live previews.
     -->
-    {% bookshop_live _cloudcannon/bookshop-live.js %}
+    {% bookshop_live docs/_cloudcannon/bookshop-live.js %}
 
     <script src="/js/scripts.js"></script>
     <script src="/js/common.js"></script>
