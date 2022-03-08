@@ -1,6 +1,6 @@
 title: Vonge
 source: .
-
+remote_theme: CloudCannon/vonge-jekyll-bookshop-template
 
 plugins:
   - jekyll-bookshop
